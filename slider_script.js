@@ -2,31 +2,31 @@ var models = [
     {
         name : 'guns n roses',
         image : 'img/gunsnroses.jpeg',
-        link : 'https://www.google.com/'
+        link : 'https://www.gunsnroses.com/'
 
     },
     {
         name : 'iron_maiden',
         image : 'img/iron_maiden.jpg',
-        link : 'https://www.google.com/'
+        link : 'https://www.ironmaiden.com/'
 
     },
     {
         name : 'metallica',
         image : 'img/metallica.jpg',
-        link : 'https://www.google.com/'
+        link : 'https://www.metallica.com/'
 
     },
     {
         name : 'nirvana',
         image : 'img/nirvana.jpg',
-        link : 'https://www.google.com/'
+        link : 'https://www.nirvana.com/'
 
     },
     {
         name : 'system of a down',
         image : 'img/system_of_a_down.jpeg',
-        link : 'https://www.google.com/'
+        link : 'https://systemofadown.com/'
 
     }
 ];
@@ -73,7 +73,7 @@ function init(settings){
 
     interval = setInterval(function(){
         if(settings.random){
-            //random index
+            //random index 
             do {
             index = Math.floor(Math.random() * slideCount);
             } while(index == prev)
